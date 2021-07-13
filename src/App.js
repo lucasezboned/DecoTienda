@@ -3,6 +3,10 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Title from './components/title.js';
 import FunctionalComponent from './components/FunctionalComponent';
+
+import ClickTracker from './components/ClickTracker';
+
+
 var dataReceived = [
   {
     id:1,
@@ -33,8 +37,8 @@ var dataReceived = [
 
 function App() {
   return (
-    <div className="App">
-      <header className="">
+    <div ClassName="App">
+      <header ClassName="">
         <Title/>
        
       </header>
@@ -54,7 +58,17 @@ function App() {
             camada = { person.camada}
           />
         )
+
+
       })}
+
+ 
+  </footer>
+
+
+        <footer ClassName="Footer">
+
+    <ClickTracker/> 
   </footer>
 
 
