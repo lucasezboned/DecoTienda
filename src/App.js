@@ -44,7 +44,7 @@ function App() {
       </header>
 
 
-      <footer ClassName="Footer">
+      <div ClassName="Footer">
       <h1>Bienvenido a Decotienda</h1>
       
 
@@ -63,13 +63,13 @@ function App() {
       })}
 
  
-  </footer>
+  </div>
 
 
-        <footer ClassName="Footer">
+        <div ClassName="Footer">
 
     <ClickTracker/> 
-  </footer>
+  </div>
 
 
 
