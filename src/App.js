@@ -5,7 +5,7 @@ import Title from './components/title.js';
 import FunctionalComponent from './components/FunctionalComponent';
 
 import ClickTracker from './components/ClickTracker';
-
+import {BrowserRouter, Switch, Route} from 'react-router-dom'
 
 var dataReceived = [
   {
@@ -66,7 +66,7 @@ function App() {
   </div>
 
 
-        <div ClassName="Footer">
+  <div ClassName="Footer">
 
     <ClickTracker/> 
   </div>
